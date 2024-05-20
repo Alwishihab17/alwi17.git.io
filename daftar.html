@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Daftar</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;"><span style="color: green;">Muhamad</span> <span style="color: blue;">Alwi</span> <span style="color: red;">Shihabudin</span></h1></h1>
+        <p align="center">
+            <a href="index.html">|Home|</a>
+            <a href="profil.html">|Profil|</a>
+            <a href="tentang.html">|About|</a>
+            <a href="contact.html">|Contact|</a>
+            </p>
+            <hr>
+        <form action="Registrasi.php" method="post">
+            <fieldset>
+                <legend>Registrasi</legend>
+                <table style="width: 100%; text-align: center;" border="1" cellpanding="5">
+                    <tr>
+                        <td><label>Nama</label></td>
+                        <td><input type="text" name="Nama" placeholder="Nama lengkap..."/></td>
+                    </tr>
+                        <td><label>NIK</label></td>
+                        <td><input type="text" name="NIK" placeholder="NIK..."/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" name="Email" placeholder="Your Email..."/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Tanggal Lahir</label></td>
+                        <td><input type="date" name="Tanggal"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Kelamin</label></td>
+                        <td><label><input type="radio" name="Jenis Kelamin" value="Laki-Laki"/>Laki-Laki</label>
+                        <label><input type="radio" name="Jenis Kelamin" value="Perempuan"/>Perempuan</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Agama</label></td>
+                        <td><select name="Agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">kristen</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Budha">Budha</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Alamat</label></td>
+                        <td><textarea name="Alamat..." placeholder="Alamat..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><input type="submit" name="submit" value="Daftar"/></th>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
